@@ -42,6 +42,7 @@ else
     sudo apt-get install htop -y
     sudo apt-get install openssh-client
     sudo systemctl status ssh
+    sudo systemctl enable --now ssh
     sudo ufw allow ssh
 
     
