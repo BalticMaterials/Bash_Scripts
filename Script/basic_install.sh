@@ -40,7 +40,10 @@ else
     sudo apt-get install curl
     sudo apt-get install tree -y
     sudo apt-get install htop -y
-    
+    sudo apt-get install openssh-client
+    sudo systemctl status ssh
+    sudo ufw allow ssh
+
     
     # Tune Up for Python-coding: Poetry
     sudo curl -O https://bootstrap.pypa.io/get-pip.py
