@@ -52,9 +52,11 @@ else
     sudo pip install --user pipx
     sudo apt install pipx -y
     sudo pipx ensurepath
-    sudo python -m pip install --user virtualenv
+    #sudo python -m pip install --user virtualenv
+    sudo apt install python3-venv -y
     sudo pipx install poetry
     sudo pipx ensurepath
+    
     
     
     # install applications
